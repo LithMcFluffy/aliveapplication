@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class AliveApplication {
 
+    private String mikaon = "käynnisty nytte";
+    
     public static void main(String[] args) {
         SpringApplication.run(AliveApplication.class, args);
     }
